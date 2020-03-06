@@ -44,6 +44,9 @@ public class Automobil extends Vechicul {
 	public void salvare(String numeFisier) {
 		File logFile = new File(numeFisier);
 		PrintWriter filePrint;
+		 
+		
+		
 		try {
 			logFile.createNewFile();
 		} catch (IOException e1) {
